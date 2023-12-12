@@ -1,0 +1,68 @@
+body{margin: 0;padding: 0;box-sizing: border-box;}  
+.navbar-brand{color: aliceblue;}
+.navbar-brand {color: white;}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{color: white;}
+.navbar-nav .nav-link{color: #e4e4e4;} 
+nav{background-color: rgb(4, 4, 32);}
+nav a{color:white;}
+.text{margin: 20px;width: 95%;}
+h1{text-align: center;}
+.text p{
+   text-align: center;
+   margin: auto;
+   line-height: 1.7;}
+.menu {background-color: #e4e4e4;
+   text-align: center;}
+.menu button{margin: 10px;
+   width: 90px;
+   border:none;
+   background-color:#938464;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;}
+   .content{background-color:#e4e4e4 ;}
+   .con-card{display: flex;
+       gap: 55px;
+       justify-content: center;
+       margin-top: 50px;
+       flex-wrap: wrap;
+       overflow: hidden;}
+   .card{margin: 20px;;text-align: center;}
+   .card a{margin: 50px;}
+   .card-img-top{width: 100%px;height: 50%;}
+.btn {background-color:#938464 ;border-color: rgb(126, 128, 51);}
+footer{width:100%;
+   background-color:rgb(4, 4, 32);
+   overflow: hidden;}
+.container{display: flex;
+   gap: 80px;
+   padding: 60px;
+   justify-content: center ;
+   color: beige;
+   width: 100%;}
+footer a{text-decoration: none;
+   color:white;}
+footer ol {list-style: none;}
+footer p{
+   text-align: center;
+   font-size: 18px;
+   margin-bottom: 30px;
+}
+footer span{color: beige;}
+footer h2{color:#64593f ;}
+.carousel-caption {position: absolute;
+   left: -30%;
+color:#1f1603;
+   text-align: center;
+   top: 50%;
+   font-size: 20px;}
+
+@media only screen and (max-width: 600px) 
+{.text p{width: 750px;} }
+@media only screen and (max-width: 768px) 
+{.carousel {width: 790px;}
+.content{width: 790px;}
+footer{width: 790px;}
+nav{width: 790px;}}
+@media only screen and (max-width: 350px) {.text p{width: 700px;}}
+
